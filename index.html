@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
     <meta charset="UTF-8">
@@ -8,11 +8,43 @@
     <style>
         body {
             text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: url('image/微信图片_20240618135551.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .game-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* 让容器占满整个页面高度 */
         }
 
         .game-link {
-            display: block;
-            margin-bottom: 20px;
+            flex: 1;
+            text-align: center;
+            margin: 0 10px;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 5px;
+            text-decoration: none;
+            color: #000;
+            font-size: 1.2em;
+        }
+
+        .game-link:hover {
+            background-color: rgba(255, 255, 255, 1);
+        }
+
+        h1 {
+            margin: 20px 0;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
         }
     </style>
 </head>
