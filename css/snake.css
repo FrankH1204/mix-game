@@ -1,0 +1,67 @@
+<!DOCTYPE html >
+<html lang="zh-CN" >
+<head >
+<meta charset="UTF-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<style >
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: url('image/微信图片_20240618135551.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+table#map {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #EAEAEA;
+    clear: both;
+    background: #74AFE0;
+}
+
+td {
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+}
+
+.snakehead {
+    background-color: orangered;
+}
+
+.snakebody {
+    background-color: #FFCC00;
+}
+
+.snakefood {
+    background-color: orangered;
+}
+
+.box {
+    width: 310px;
+    margin: 0 auto;
+    padding: 3em 0;
+    list-style: none;
+}
+
+    .box > span {
+        float: left;
+        height: 30px;
+        margin-right: 1.5em;
+        line-height: 30px;
+    }
+
+</style >
+<title > 背景图片示例</title >
+</head >
+<body >
+<!-- 在这里添加你的内容 -->
+</body >
+</html >
